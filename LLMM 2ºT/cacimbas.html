@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+  .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+    <input type="button" value="Página anterior" onClick="history.go(-1);">
+    <!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+ 
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      </div>
+      
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="envios_desktop.jpg" alt="Envíos" class="d-block" style="width:100%">
+        </div>
+        <div class="carousel-item">
+          <img src="1001.1.jpg" alt="Chicago" class="d-block" style="width:100%">
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.youtube.com/watch?v=G8SSDIRtKeY">
+          <img src="carrusel.jpg" alt="Video" class="d-block" style="width:100%">
+          </a>
+        </div>
+      </div>
+      
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+<!--cachimbas-->
+<div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+    <h2 class="w3-wide w3-center">CACHIMBAS</h2>
+    <p class="w3-opacity w3-center"><i>En este espacio tenemos un espacio dedicado a las cachimbas, y su diferentes tipos</i></p><br>
+<div class="w3-row-padding w3-padding-32" style="margin:0 -16px"> 
+      <div class="w3-third w3-margin-bottom">
+        <img src="Aladin-MVP-360-Shiny-Full-Red-1.jpg" alt="New York" style="height: 300px;"style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Aladin MVP 360</b></p>
+          <p>Aladin es una marca de cachimba más económica, es una cachimba que se esta poniendo de moda. Es una gran opción por un precio menor<br>90$</p>
+          <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal10').style.display='block'">Buy</button>
+        </div>
+      </div>
+      <div class="w3-third w3-margin-bottom">
+        <br> <br> <br> <br> <br>
+          <img src="cachimba-Moze-Breeze-Two-Wavy-Red-3000x3000.jpg" alt="Paris" style="height: 200px;" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+    
+          <p><b> Moze Breeze Two red</b></p>
+          <p>L a cachimba mas innovadora del mercado, con sus mas de 7 purgas,es considerada la mejor cachimba mini del mercado<br>149,90$</p>
+          <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal9').style.display='block'">Buy</button>
+        </div>
+      </div>
+      
+      <div class="w3-third w3-margin-bottom">
+        <br> <br> <br> 
+        <img src="vz-hookah-custom-mini.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>VZ Mini Custom</b></p>
+          
+          <p>Es una de las cachimbas mini más exclusiva tanto por sus pocas unidades como por los materiales que la componen <br></p>
+          <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal8').style.display='block'">Buy</button>
+        </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Ticket Modal -->
+<div id="ticketModal8" class="w3-modal">
+  <div class="w3-modal-content w3-animate-top w3-card-4">
+    <header class="w3-container w3-teal w3-center w3-padding-32"> 
+      <span onclick="document.getElementById('ticketModal').style.display='none'" 
+     class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+      <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>CARRITO</h2>
+    </header>
+    <div class="w3-container">
+      <p><label><i class="fa fa-shopping-cart"></i> VZ Mini Custom, $309,90$.</label></p>
+      <input class="w3-input w3-border" type="text" placeholder="How many?">
+      <p><label><i class="fa fa-user"></i> Send To</label></p>
+      <input class="w3-input w3-border" type="text" placeholder="Enter email">
+      <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+      <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal8').style.display='none'">Close <i class="fa fa-remove"></i></button>
+      <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+    </div>
+  </div>
+</div>
+<!-- Ticket Modal -->
+<div id="ticketModal9" class="w3-modal">
+  <div class="w3-modal-content w3-animate-top w3-card-4">
+    <header class="w3-container w3-teal w3-center w3-padding-32"> 
+      <span onclick="document.getElementById('ticketModal').style.display='none'" 
+     class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+      <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>CARRITO</h2>
+    </header>
+    <div class="w3-container">
+      <p><label><i class="fa fa-shopping-cart"></i> MOZE Breeze Two, $149,90$.</label></p>
+      <input class="w3-input w3-border" type="text" placeholder="How many?">
+      <p><label><i class="fa fa-user"></i> Send To</label></p>
+      <input class="w3-input w3-border" type="text" placeholder="Enter email">
+      <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+      <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal9').style.display='none'">Close <i class="fa fa-remove"></i></button>
+      <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+    </div>
+  </div>
+</div>
+<!-- Ticket Modal -->
+<div id="ticketModal10" class="w3-modal">
+  <div class="w3-modal-content w3-animate-top w3-card-4">
+    <header class="w3-container w3-teal w3-center w3-padding-32"> 
+      <span onclick="document.getElementById('ticketModal').style.display='none'" 
+     class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+      <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>CARRITO</h2>
+    </header>
+    <div class="w3-container">
+      <p><label><i class="fa fa-shopping-cart"></i> Aladin MVP 360, $79,90$.</label></p>
+      <input class="w3-input w3-border" type="text" placeholder="How many?">
+      <p><label><i class="fa fa-user"></i> Send To</label></p>
+      <input class="w3-input w3-border" type="text" placeholder="Enter email">
+      <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+      <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal10').style.display='none'">Close <i class="fa fa-remove"></i></button>
+      <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+    </div>
+  </div>
+</div>
+<!-- End Page Content -->
+</div>
+<div class="container">
+  <h2>Tiendas</h2>           
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>LOCAL</th>
+        <th>PAIS</th>
+        <th>Nº Teléfono</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Avenidad de Andalucía, 8</td>
+        <td> Huelva, España</td>
+        <td>+34 601094813</td>
+      </tr>
+      <tr>
+        <td>Calle Sierpes, 10</td>
+        <td>Sevilla, España</td>
+        <td>+34 601091813</td>
+      </tr>
+      <tr>
+        <td>Via Montenapoleone</td>
+        <td>Milán, Italia</td>
+        <td>+39 661562716</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+//When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal 1');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+<head>
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the header */
+  .header {
+    grid-area: header;
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  /* The grid container */
+  .grid-container {
+    display: grid;
+    grid-template-areas: 
+      'header header header header header header' 
+      'left left middle middle right right' 
+      'footer footer footer footer footer footer';
+    /* grid-column-gap: 10px; - if you want gap between the columns */
+  } 
+  
+  .left,
+  .middle,
+  .right {
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Style the left column */
+  .left {
+    grid-area: left;
+  }
+  
+  /* Style the middle column */
+  .middle {
+    grid-area: middle;
+  }
+  
+  /* Style the right column */
+  .right {
+    grid-area: right;
+  }
+  
+  /* Style the footer */
+  .footer {
+    grid-area: footer;
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .grid-container  {
+      grid-template-areas: 
+        'header header header header header header' 
+        'left left left left left left' 
+        'middle middle middle middle middle middle' 
+        'right right right right right right' 
+        'footer footer footer footer footer footer';
+    }
+  }
+
+  
+  </style>
+</body>
+</html>
